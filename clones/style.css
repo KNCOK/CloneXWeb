@@ -1,5 +1,74 @@
+/* Debug: border: 2px dashed black; */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* banner */
+
+.banner {
+    margin: 25px;
+    border: 2px dashed black;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 7rem;
+    border: 2px dashed black;
+}
+
+/* top-clone */
+
+.top-clone-header {
+    margin: 25px;
+    border: 2px dashed black;
+}
+
+.top-clone-contain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+    border: 2px dashed black;
+}
+
+.top-clone-contain h2 {
+    font-weight: 700;
+    border: 2px dashed black;
+}
+
+.top-clone-contain h3 {
+    font-weight: 500;
+    border: 2px dashed black;
+}
+
+.top-clone-box {
+    border: 2px dashed black;
+    height: 100px;
+    margin: 20px;
+}
+
+/* other-clone */
+
+.other-clone-header {
+    margin: 25px;
+    border: 2px dashed black;
+}
+
+.other-clone-container {
+    margin: 25px;
+    border: 2px dashed black;
+}
+
+.other-clone-container h2 {
+    font-weight: 700;
+    border: 2px dashed black;
+}
+
+.other-clone-container h3 {
+    font-weight: 500;
+    border: 2px dashed black;
 }
