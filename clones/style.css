@@ -1,10 +1,14 @@
 /* Debug: border: 2px dashed black; */
 
+/* background-color: rgb(179, 179, 179); */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    /* color: white;
+    background-color: black; */
 }
 
 /* banner */
@@ -16,50 +20,71 @@ body {
 
 .banner h1 {
     font-weight: 800;
-    font-size: 7rem;
+    font-size: 8vw;
     border: 2px dashed black;
+    margin: 10px;
 }
 
 /* top-clone */
 
+.top-clone {
+    border: 2px dashed black;
+    margin: 25px;
+}
+
 .top-clone-header {
     margin: 25px;
     border: 2px dashed black;
+    margin: 10px;
+    font-size: 1.3vw;
 }
 
 .top-clone-contain {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 25px;
-    border: 2px dashed black;
-}
-
-.top-clone-contain h2 {
-    font-weight: 700;
-    border: 2px dashed black;
-}
-
-.top-clone-contain h3 {
-    font-weight: 500;
+    margin: 10px;
     border: 2px dashed black;
 }
 
 .top-clone-box {
     border: 2px dashed black;
-    height: 100px;
+    height: 120px;
+    width: 120px;
     margin: 20px;
+    text-align: center;
+}
+
+.top-clone-box > h3 {
+    font-weight: 500;
+    border: 2px dashed black;
+    margin: 2px;
+}
+
+.top-clone-box > i {
+    font-size: 5rem;
+    margin: 2px;
+}
+
+.top-clone-box-soon {
+    font-style: italic;
 }
 
 /* other-clone */
 
-.other-clone-header {
-    margin: 25px;
+.other-clone {
     border: 2px dashed black;
+    margin: 25px;
+}
+
+.other-clone-header {
+    margin: 10px;
+    border: 2px dashed black;
+    font-size: 1.3vw;
 }
 
 .other-clone-container {
-    margin: 25px;
+    margin: 10px;
     border: 2px dashed black;
 }
 
@@ -71,4 +96,20 @@ body {
 .other-clone-container h3 {
     font-weight: 500;
     border: 2px dashed black;
+}
+
+.other-clone-box-soon {
+    font-style: italic;
+}
+
+/* feature */
+
+.feature {
+    border: 2px dashed black;
+    margin: 25px;
+}
+
+.feature-list {
+    border: 2px dashed black;
+    margin: 10px;
 }
