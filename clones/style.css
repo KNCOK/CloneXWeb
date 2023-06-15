@@ -48,26 +48,50 @@ body {
 }
 
 .top-clone-box {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     height: 120px;
     width: 120px;
     margin: 20px;
     text-align: center;
+    border-radius: 30px;
+    padding: 10px;
 }
 
-.top-clone-box > h3 {
+.top-clone-box:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.top-clone-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-clone-box a > h3 {
     font-weight: 500;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin: 2px;
 }
 
-.top-clone-box > i {
+.top-clone-box a > i {
     font-size: 5rem;
     margin: 2px;
 }
 
 .top-clone-box-soon {
     font-style: italic;
+    cursor: not-allowed;
+}
+
+.clickable > h3 {
+    cursor: pointer;
+}
+
+.clickable > i {
+    cursor: pointer;
+}
+
+.not-clickable > h3, i {
+    cursor: not-allowed;
 }
 
 /* other-clone */
