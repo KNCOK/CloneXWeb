@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+        background: rgb(235, 235, 235);
+}
+header{
+    padding: 10px 10%;
+    background: white;
+}
+header i{
+    font-size: 40px;
+    color:#0a66c2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family:  'Poppins', sans-serif;
+}
+.nav-right{
+    display: flex;
+    gap: 2rem;
+}
+.nav-right a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-right a:hover i,
+.nav-right a:hover h5 {
+    color: black;
+    }
+.nav-right h5{
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+}
+.nav-right i{
+    font-size: 1rem;
+    color: grey;
+}
+.nav-right p{
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.nav-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav-left .input-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(237, 245, 246);
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.input-box input{
+    font-size: 14px;            
+    border: none;
+    background-color: rgb(237, 245, 246);
+    width: 100%;
+    color: black;
+}
+.input-box input:focus{
+    outline: none;
+}
+.input-box i{
+    font-size: 0.8rem;
+    color: grey;
+}
+main{
+    background: rgb(235, 235, 235);
+    padding: 20px 65px;
+    display: grid;
+    grid-template-columns: 250px 700px 350px;
+    font-family:  'Poppins', sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+.sidebar{
+    width: fit-content;
+}
+.profile {
+    background: white;
+    width: 250px;
+    font-family:  'Poppins', sans-serif;
+    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+} 
+.profile h1 {
+    font-size: 23px;
+}
+.profile p {
+    font-size: 15px;
+}
+
+.profile-header{
+    background-color: rgb(82, 92, 105);
+    text-align: center;
+    border-radius: 18px 18px 0px 0px;
+    background-image: url("https://clone-x.shobhitsharma.net/raw/Cover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.profile-header img {
+    border-radius: 50%;
+    height: 4.5rem;
+    position: relative;
+    top: 25px;
+}
+
+.profile-body p{
+    color: grey;
+}
+
+.profile-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile-info h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.profile-info p{
+    font-size: 14px;
+    margin-top: 0;
+    color: grey;
+}
+
+.profile-stats {
+    padding: 5px;
+}
+
+.profile-stats p{
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+hr {
+    margin: 0;
+}
+
+.profile-premium{
+    padding: 5px;
+}
+
+.profile-premium p{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.profile-premium h4{
+    font-size: 15px;
+    margin: 10px 0;
+}  
+
+.profile-items {
+    padding: 5px;
+}
+
+.profile-items p {
+    font-size: 12px;
+}
+
+.metric span{
+    color: blue;
+    float: right;
+}
+
+.sidebar-bottom{
+    background: white;
+    width: 250px;
+    font-family:  'Poppins', sans-serif;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 1px grey;
+}
+
+.groups-and-recent {
+    padding: 15px;
+}
+
+
+.groups-and-recent > div h5{
+    font-size: 12px;
+    margin: 9px 0px;
+}
+
+.groups-and-recent > div h4{
+    font-size: 10px;
+    color: grey;
+    margin: 5px;
+}
+
+.groups-and-recent > div i{
+    color: rgb(83, 83, 83);
+    font-size: 0.8rem;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+#group-text{
+    font-size: 13px;
+    color: #0a66c2;
+    margin-top: 25px;
+}
+
+.show-more {
+    color: grey;
+    font-size: 11px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.show-more:hover{
+    text-decoration: underline;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+
+.events p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.events i{
+    color: rgb(83, 83, 83);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.discover {
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.posts-section{
+    background: rgb(235, 235, 235);
+}
+
+.post-head{
+    display: flex;
+    justify-content: space-between;
+}
+.post-head img{
+    height: 3rem;
+    width: 3rem;
+}
+.post-user{
+    display: flex;
+    gap: 10px;
+}
+.post-user p{
+    margin: 0;
+    font-size: 10px;
+    color: grey;
+}
+.post-user h6{
+    margin: 0;
+    font-size: 12px;
+}
+.post img{
+    width: 100%;
+    margin-top: 10px;
+}
+.post p{
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(54, 54, 54);
+}
+.posts {
+    background-color: white;
+    height: fit-content;
+    margin: 0px 20px 10px 20px;
+    box-shadow: 1px 1px grey;
+    padding: 15px;     
+    border-radius: 15px;
+}
+
+.posts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.posts-header i{
+    cursor: pointer;
+}
+    
+.next-event{
+    padding: 15px;
+}
+
+.post-creation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 10px;
+    margin-top: 25px;
+}
+.post-creation img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+.post-creation input{
+    padding: 16px 15px;
+    border-radius: 100px;
+    width: 100%;
+}
+.btn{
+    background-color: #0a66c2;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family:  'Poppins', sans-serif;
+}
+
+.btn:hover{
+    background-color: #0a5197;
+}
+.post-type{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.type{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.type:hover{
+    background-color: rgb(228, 226, 226);
+}
+.type:nth-child(1) i{
+    color: #0a66c2;
+}
+.type:nth-child(2) i{
+    color: #19c20a;
+}
+.type:nth-child(3) i{
+    color: #3187dd;
+}
+.type:nth-child(4) i{
+    color: #c20ab9;
+}
+.news {
+    background-color: white;
+    height: 400px;
+    font-family:  'Poppins', sans-serif;
+    padding: 13px;
+    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+}
+
+.news ul{
+    padding-left: 20px;
+}
+
+.news-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-header h4{
+    margin: 10px 0px 15px 0px;
+}
+
+.news-link {
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.news-link h4{
+    font-size: 14px;
+    margin: 0;
+}
+.news-link p{
+    font-size: 10px;
+    margin: 2px;
+    color: grey;
+}
+.news li:hover{
+    background-color: rgb(227, 227, 227);
+}
+
+.news .show-more{
+    font-size: 15px;
+}
+
+.react {
+    display: flex;
+    justify-content: space-around;
+}
+
+.react div {
+    display: flex;
+    gap: 5px;
+    padding: 10px 5px;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.react div > p {
+    margin: 4px;
+    color: grey;
+    font-size: 15px;
+}
+
+.react div > i {
+    color: grey;
+    font-size: 15px;
+}
+
+.react div:hover {
+    background-color: rgb(226, 226, 226);
+    color: black;
+}
