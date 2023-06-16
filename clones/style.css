@@ -30,6 +30,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     font-size: 9vw;
     padding: 0 8px;
+    color: #0CEA55;
 }
 
 /* project-info */
@@ -82,6 +83,11 @@ body {
 
 .top-clone-box:hover {
     background-color: rgb(36, 36, 36);
+    color: #0CEA55;
+}
+
+.top-clone-box i:hover {
+    color: #0CEA55;
 }
 
 .top-clone-box a {
@@ -215,4 +221,25 @@ body {
     border: 2px dashed black;
     margin: 10px;
     height: 100%;
+}
+
+/* footer */
+
+.footer {
+    /* border: 2px dashed black; */
+    background-color: white;
+    color: black;
+}
+
+.footer-credit p {
+    margin: 10px;
+    /* border: 2px dashed black; */
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-credit-person a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0CEA55;
 }
