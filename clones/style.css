@@ -12,6 +12,42 @@ body {
     background-color: black;
 }
 
+/* navigation */
+
+.navigation {
+    display: flex;
+    /* background-color: white; */
+    padding: 15px;
+    flex-direction: row-reverse;
+    gap: 5px;
+    border: 2px dashed black;
+}
+
+.navigation-button button {
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.green-go-github button {
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #0CEA55;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #210641;
+}
+
+
 /* banner */
 
 .banner {
@@ -24,6 +60,7 @@ body {
     font-size: 8vw;
     border: 2px dashed black;
     margin: 10px;
+    padding: 0px;
 }
 
 .banner-x {
@@ -181,6 +218,7 @@ body {
     padding: 10px;
     font-size: 2rem;
     font-weight: 500;
+    color: #210641;
 }
 
 .big-quote-author p {
@@ -241,5 +279,5 @@ body {
 .footer-credit-person a {
     text-decoration: none;
     font-weight: 600;
-    color: #0CEA55;
+    color: #210641;
 }
