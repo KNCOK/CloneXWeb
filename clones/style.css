@@ -15,7 +15,7 @@ body {
 /* banner */
 
 .banner {
-    margin: 25px;
+    margin: 10px 25px;
     border: 2px dashed black;
 }
 
@@ -32,6 +32,19 @@ body {
     padding: 0 8px;
 }
 
+/* project-info */
+
+.project-info {
+    border: 2px dashed black;
+    margin: 10px 25px;
+}
+
+.project-info p {
+    border: 2px dashed black;
+    margin: 10px;
+    font-size: larger;
+}
+
 /* top-clone */
 
 .top-clone {
@@ -42,8 +55,11 @@ body {
 .top-clone-header {
     margin: 25px;
     border: 2px dashed black;
-    margin: 10px;
     font-size: 1.3rem;
+    padding: 10px;
+    /* background-color: rgb(36, 36, 36); */
+    width: fit-content;
+    border-radius: 30px;
 }
 
 .top-clone-contain {
@@ -110,13 +126,16 @@ body {
 }
 
 .other-clone-header {
-    margin: 10px;
+    margin: 25px;
     border: 2px dashed black;
     font-size: 1.3rem;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 30px;
 }
 
 .other-clone-container {
-    margin: 10px;
+    margin: 25px;
     border: 2px dashed black;
 }
 
@@ -128,6 +147,7 @@ body {
 
 .other-clone-box {
     width: fit-content;
+    margin: 10px;
 }
 
 .other-clone-box a {
@@ -143,11 +163,14 @@ body {
 /* big-quote */
 
 .big-quote {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
 
 .big-quote-text p {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin: 10px;
     padding: 10px;
     font-size: 2rem;
@@ -155,7 +178,7 @@ body {
 }
 
 .big-quote-author p {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin: 10px;
     padding: 10px;
     font-size: 1rem;
