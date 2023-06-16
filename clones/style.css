@@ -3,6 +3,7 @@
 /* background-color: rgb(179, 179, 179); */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -25,6 +26,12 @@ body {
     margin: 10px;
 }
 
+.banner-x {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 9vw;
+    padding: 0 8px;
+}
+
 /* top-clone */
 
 .top-clone {
@@ -36,7 +43,7 @@ body {
     margin: 25px;
     border: 2px dashed black;
     margin: 10px;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
 }
 
 .top-clone-contain {
@@ -70,6 +77,7 @@ body {
     font-weight: 500;
     /* border: 2px dashed black; */
     margin: 2px;
+    font-size: 1.2rem;
 }
 
 .top-clone-box a > i {
@@ -104,7 +112,7 @@ body {
 .other-clone-header {
     margin: 10px;
     border: 2px dashed black;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
 }
 
 .other-clone-container {
@@ -115,6 +123,7 @@ body {
 .other-clone-container h3 {
     font-weight: 500;
     border: 2px dashed black;
+    font-size: 1.2rem;
 }
 
 .other-clone-box {
