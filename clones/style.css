@@ -267,6 +267,7 @@ body {
     /* border: 2px dashed black; */
     background-color: white;
     color: black;
+    margin: 10px 10px 0;
 }
 
 .footer-credit p {
@@ -280,4 +281,8 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: #210641;
+}
+
+.footer-credit-person a:hover {
+    color: #0CEA55;
 }

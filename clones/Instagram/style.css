@@ -1,62 +1,100 @@
+/* Debug: border: 2px dashed black; */
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 body {
     font-family: 'Segoe UI', sans-serif;
+    margin: 0;
 }
 
-.logo-container {
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-}
-
-hr {
-    border-color: grey;
-}
-
-.not-found {
-    text-align: center;
-}
-
-.not-found h1 {
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.not-found a {
-    text-decoration: none;
-    color: rgb(0, 55, 107);
-}
+/* navbar */
 
 .navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     border-bottom: 0.3px solid lightgray;
+    border: 2px dashed black;
 }
 
-.account-action > button {
+.navbar-logo {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    border: 2px dashed black;
+}
+
+.navbar-account > button {
     font-size: 14px;
     font-weight: bold;
+    border: 2px dashed black;
 }
 
-.sign-in {
+.navbar-account-sign-in {
     background-color: rgb(0, 149, 246);
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 8px;
     padding: 10px 15px;
+    border: 2px dashed black;
 }
 
-.sign-up {
+.navbar-account-sign-up {
     background-color: white;
     border: none;
     cursor: pointer;
     color: rgb(0, 149, 246);
     padding: 5px;
+    border: 2px dashed black;
 }
 
+/* account */
+
+.account {
+    border-bottom: 0.3px solid lightgray;
+    border: 2px dashed black;
+    margin: 10px 40vh;
+    padding: 10px;
+    /* flex-basis: 30px; */
+}
+
+.account-container {
+    border: 2px dashed black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-picture {
+    border: 2px dashed black;
+}
+
+.account-picture img {
+    height: 180px;
+    border-radius: 50%;
+}
+
+.account-user {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    border: 2px dashed black;
+}
+
+.account-user-action {
+    display: flex;
+    border: 2px dashed black;
+}
+
+.account-user-stats {
+    display: flex;
+    border: 2px dashed black;
+    justify-content: space-around;
+}
+
+.account-user-info {
+    border: 2px dashed black;
+}
