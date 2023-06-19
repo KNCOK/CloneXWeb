@@ -52,6 +52,7 @@ body {
 .top {
     height: 100vh;
     overflow: auto;
+    border: 2px dashed black;
 }
 
 /* banner */
@@ -129,7 +130,7 @@ body {
     color: #0CEA55;
 }
 
-.top-clone-box i:hover {
+.top-clone-box a:hover {
     color: #0CEA55;
 }
 
