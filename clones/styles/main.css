@@ -64,7 +64,7 @@ body {
 
 .banner h1 {
     font-weight: 800;
-    font-size: 8vw;
+    font-size: 10vw;
     border: 2px dashed black;
     margin: 10px;
     padding: 0px;
@@ -72,7 +72,7 @@ body {
 
 .banner-x {
     font-family: 'Varela Round', sans-serif;
-    font-size: 9vw;
+    font-size: 11vw;
     padding: 0 8px;
     color: #0CEA55;
 }
@@ -87,7 +87,7 @@ body {
 .project-info p {
     border: 2px dashed black;
     margin: 10px;
-    font-size: larger;
+    font-size: 3vh;
 }
 
 /* top-clone */
