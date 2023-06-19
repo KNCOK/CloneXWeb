@@ -3,3 +3,4 @@
 ## Projects
 
 ## Technology Stack
+- Font Awesome
