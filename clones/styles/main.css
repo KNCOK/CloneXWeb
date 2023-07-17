@@ -16,11 +16,11 @@ body {
 
 .navigation {
     display: flex;
-    /* background-color: white; */
+    background-color: white;
     padding: 15px;
     flex-direction: row-reverse;
     gap: 5px;
-    border: 2px dashed black;
+    border: 2px dashed green;
 }
 
 .navigation-button button {
@@ -32,7 +32,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: white;
+    color: black;
 }
 
 .green-go-github button {
