@@ -8,51 +8,67 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    padding: 0;
     color: white;
     background-color: black;
+}
+
+/* banner-lite */
+
+.banner-lite p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    /* border: 2px dashed black; */
+    color: black;
+}
+
+.banner-lite-x {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3rem;
+    padding: 0 2px;
+    color: #0CEA55;
 }
 
 /* navigation */
 
 header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
     position: sticky;
     top: 0;
     margin: 0;
     box-shadow: 2px 2px 2px 0.1px rgba(0, 0, 0, 0.1);
-    box-shadow: ;
 }
 
 .navigation {
     display: flex;
-    /* position: sticky;
-    top: 0; */
-    background-color: white;
+    align-items: center;
     padding: 15px;
     flex-direction: row-reverse;
     gap: 5px;
-    /* border: 2px dashed green; */
 }
 
-.navigation-button button {
+.navigation-button a {
     border: none;
     text-decoration: none;
     border-radius: 25px;
     padding: 10px;
     background: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: black;
 }
 
-.green-go-github button {
+.green-go-github a {
     border: none;
     text-decoration: none;
     border-radius: 25px;
     padding: 10px;
     background-color: #0CEA55;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: #210641;
 }
@@ -291,7 +307,8 @@ header {
     /* border: 2px dashed black; */
     background-color: white;
     color: black;
-    margin: 10px 10px 0;
+    /* margin: 10px 10px 0; */
+    margin-bottom: 0;
 }
 
 .footer-credit p {
