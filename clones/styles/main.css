@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    height: 13vh;
+    height: 10vh;
     position: sticky;
     top: 0;
     margin: 0;
@@ -30,7 +30,7 @@ header {
 
 .banner-lite img {
     font-weight: 500;
-    height: 13vh;
+    height: 10vh;
     /* border: 2px dashed black; */
     color: black;
 }
@@ -52,7 +52,7 @@ header {
     padding: 10px;
     background: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 700;
     color: black;
 }
@@ -61,10 +61,10 @@ header {
     border: none;
     text-decoration: none;
     border-radius: 25px;
-    padding: 10px;
+    padding: 0.4em;
     background-color: #0CEA55;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 700;
     color: #210641;
 }
