@@ -8,7 +8,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
     color: white;
     background-color: black;
 }
@@ -40,7 +41,7 @@ header {
 .navigation {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
     flex-direction: row-reverse;
     gap: 5px;
 }
@@ -61,7 +62,7 @@ header {
     border: none;
     text-decoration: none;
     border-radius: 25px;
-    padding: 0.4em;
+    padding: calc(1.2em * (40/100));
     background-color: #0CEA55;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
@@ -300,7 +301,9 @@ header {
 /* footer */
 
 .footer {
-    /* border: 2px dashed black; */
+    /* border: 2px dashed yellow; */
+    /* box-sizing: border-box; */
+    /* border: none; */
     background-color: white;
     color: black;
     /* margin: 10px 10px 0; */
@@ -322,4 +325,20 @@ header {
 
 .footer-credit-person a:hover {
     color: #0CEA55;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1279px) {
+    
+    @media only screen and (orientation: landscape) {
+        header {
+            height: 20vh;
+        }
+    
+        .banner-lite img {
+            height: 20vh;
+        }
+    }
+    
 }
